@@ -1,0 +1,29 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "servidor de exemplo ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    
+    "type": "git",
+    "url": "git+https://github.com/KauanGoes7/server-backend.git"
+  },
+  "type": "module",
+  "author": "kauan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KauanGoes7/server-backend/issues"
+  },
+  "homepage": "https://github.com/KauanGoes7/server-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "run": "^1.5.0",
+    "start": "^5.1.0"
+  }
+}
