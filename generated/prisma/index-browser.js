@@ -139,8 +139,8 @@ exports.Prisma.SortOrder = {
 
 
 exports.Prisma.ModelName = {
-  user: 'user',
-  list: 'list'
+  User: 'User',
+  List: 'List'
 };
 
 /**

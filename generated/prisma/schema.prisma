@@ -11,14 +11,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model user {
+model User {
   id       Int    @id @default(autoincrement())
   name     String @unique
   email    String
   password String
 }
 
-model list {
+model List {
   id          Int    @id @default(autoincrement())
   description String
   price       Float
